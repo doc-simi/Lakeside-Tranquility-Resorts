@@ -1,0 +1,36 @@
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  color: white;
+  padding: 30px;
+  margin: 10px 30px;
+}
+
+.vertical-line {
+  border-left: 3px solid rgb(7, 196, 7);
+  border-radius: 10px;
+  
+}
+
+.contact, .operating-hours, .socials {
+  padding: 20px;
+  
+}
+
+.contact:hover, .operating-hours:hover, .socials:hover {
+  color: rgb(50, 50, 50);
+  background-color: white;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  row-gap: 18px;
+  column-gap: 15px;
+}

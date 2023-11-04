@@ -1,0 +1,72 @@
+.meet-our-staffs {
+  height: 40px;
+  box-sizing: content-box;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 15px;
+}
+
+.staffs-cn {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  padding: 20px 10px;
+  font-family: Roboto, Arial;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.staff-profile {
+  background-color: white;
+  border: 2px solid rgb(202, 202, 202);
+  border-radius: 15px;
+  transition: box-shadow 0.45s;
+}
+
+.staff-pic {
+  width: 100%;
+  border-radius: 15px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  transition: height 0.5s ease-out;
+}
+
+.staff-info {
+  padding: 3px 15px 15px;
+}
+
+.staff-profile:hover {
+  box-shadow: 0 0 15px 0px #ebe8deae;
+  .staff-pic {
+    height: 350px;
+  }
+  .staff-info hr {
+    width: 70%;
+  }
+}
+
+.staff-info hr {
+  border-radius: 5px;
+  width: 20%;
+  border: 2px solid #07c407;
+  transition: width 0.5s;
+}
+
+.staff-name {
+  font-size: 30px;
+  color: black;
+}
+
+.staff-position {
+  font-size: 17px;
+  color: #707070;
+  margin-bottom: 5px;
+}
+
+.staff-bio {
+  font-size: 15px;
+}

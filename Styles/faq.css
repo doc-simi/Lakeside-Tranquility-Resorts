@@ -1,0 +1,43 @@
+.faq {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 60px 0;
+}
+
+.sub-faq {
+  background-color: white;
+  border-bottom: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  padding: 20px 30px;
+}
+
+.sub-faq:hover {
+  background-color: #e6e6e6;
+}
+
+.sub-faq h4 {
+  margin: -5px -10px -5px -10px;
+  background-color: #e6e6e6;
+  padding: 7px;
+  padding-left: 15px;
+}
+
+.Questions {
+  padding-left: 30px;
+  font-weight: 500;
+}
+
+.answer {
+  font-weight: 300;
+  padding-left: 20px;
+}
+
+.answer li::marker {
+  color: #9d9d9d
+}
+
+.sub-faq-extra-info {
+  padding: 30px;
+  background-color: white;
+  font-weight: 500;
+}
